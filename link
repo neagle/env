@@ -1,0 +1,48 @@
+#!/usr/bin/env node
+var fs = require('fs');
+var path = require('path');
+var chalk = require('chalk');
+
+// Symlink dotfiles
+function dotfiles() {
+	var dotfiles = fs.readdirSync('./dotfiles');
+	dotfiles.forEach(function (file) {
+		var source = path.normalize(process.env.PWD + '/dotfiles/' + file);
+		var dest = path.normalize(process.env.HOME + '/.' + file);
+		//console.log('source', source, 'dest', dest);
+		fs.symlink(source, dest, function (error) {
+			if (!error) {
+				console.log(chalk.green('Creating symlink at ' + dest));
+			} else {
+				if (error.code === 'EEXIST') {
+					console.log(chalk.yellow('Symlink already exists at ' + dest));
+				} else {
+					console.log(chalk.red('Error creating symlink:', error));
+				}
+			}
+		});
+	});
+}
+
+
+function ohmyzsh() {
+	// Add custom oh-my-zsh folder
+
+	var source = path.normalize(process.env.PWD + '/oh-my-zsh/custom');
+	var dest = path.normalize(process.env.HOME + '/.oh-my-zsh/custom');
+
+	fs.symlink(source, dest, function (error) {
+		if (!error) {
+			console.log(chalk.green('Symlinking custom oh-my-zsh folder'));
+		} else {
+			if (error.code === 'EEXIST') {
+				console.log(chalk.yellow('Symlink already exists at .oh-my-zsh/custom'));
+			} else {
+				console.log(chalk.red('Error creating symlink', error));
+			}
+		}
+	});
+}
+
+dotfiles();
+ohmyzsh();
