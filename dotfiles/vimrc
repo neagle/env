@@ -1,15 +1,9 @@
-"   /$$$$$$                /$$             /$$
-"  /$$__  $$              | $$            |__/
-" | $$  \__//$$$$$$   /$$$$$$$  /$$    /$$ /$$ /$$$$$$/$$$$   /$$$$$$   /$$$$$$$
-" | $$$$   /$$__  $$ /$$__  $$ |  $$  /$$/| $$| $$_  $$_  $$ /$$__  $$ /$$_____/
-" | $$_/  | $$$$$$$$| $$  | $$  \  $$/$$/ | $$| $$ \ $$ \ $$| $$  \__/| $$
-" | $$    | $$_____/| $$  | $$   \  $$$/  | $$| $$ | $$ | $$| $$      | $$
-" | $$    |  $$$$$$$|  $$$$$$$ /$$\  $/   | $$| $$ | $$ | $$| $$      |  $$$$$$$
-" |__/     \_______/ \_______/|__/ \_/    |__/|__/ |__/ |__/|__/       \_______/
-"
-" Every FED needs a .vimrc. Why have a million when you could make an awesome one?
-"
-" Maintainers: Dave Artz and Nate Eagle
+"                  _
+"  ___  __ _  __ _| | ___
+" / _ \/ _` |/ _` | |/ _ \
+"|  __/ (_| | (_| | |  __/
+" \___|\__,_|\__, |_|\___|
+"            |___/
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -37,6 +31,12 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'editorconfig/editorconfig-vim'
 " Display symbols next to lines in git projects that show changes, additions, and deletions
 Plugin 'airblade/vim-gitgutter'
+" Intelligently close HTML tags
+Plugin 'docunext/closetag.vim'
+" Git integration
+Plugin 'tpope/vim-fugitive'
+" Better JavaScript
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on     " required!
@@ -276,7 +276,7 @@ nnoremap k gk
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Make sure new file explorer splits are equal width/height
-"let g:netrw_winsize=50
+"let g:netrw_winsize = 70
 
 " Map new file explorer splits to <leader>s + <direction>
 nnoremap <leader>sk :Hex!<cr>
