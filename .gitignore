@@ -1,2 +1,5 @@
+dotfiles/vim/.VimballRecord
+dotfiles/vim/bundle
 dotfiles/vim/view
+dotfiles/vim/undo
 node_modules
