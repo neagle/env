@@ -65,11 +65,11 @@ upload() {
         case "$extension" in
         "png"|"jpg"|"gif")
             echo "Uploading image to /images/posts/$file";
-            filepath="/var/www/vhost/nateeagle.com/repo/assets/images/posts/"
+            filepath="/var/www/nateeagle.com/repo/assets/images/posts/"
             ;;
         "sgf")
             echo "Uploading sgf to /sgf/$file";
-            filepath="/var/www/vhost/nateeagle.com/repo/assets/sgf/"
+            filepath="/var/www/nateeagle.com/repo/assets/sgf/"
             ;;
         esac
     fi
@@ -109,7 +109,7 @@ plugins=(git tmuxinator ssh-agent)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 #export PATH=$PATH:/Users/nateeagle5/environment/submodules/get-shit-done
 
 # enable rbenv shims and autocompletion
