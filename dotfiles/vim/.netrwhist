@@ -1,9 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui/flat-ui-pro'
-let g:netrw_dirhist_2='/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui'
-let g:netrw_dirhist_3='/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui/flat-ui-pro'
-let g:netrw_dirhist_4='/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui/flat-ui-pro/modules'
-let g:netrw_dirhist_5='/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui/flat-ui-pro'
-let g:netrw_dirhist_6='/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui/flat-ui-pro/modules'
-let g:netrw_dirhist_7='/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui/flat-ui-pro'
+let g:netrw_dirhist_cnt =0
