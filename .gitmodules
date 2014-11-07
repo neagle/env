@@ -1,3 +1,6 @@
 [submodule "dotfiles/vim/bundle/Vundle.vim"]
 	path = dotfiles/vim/bundle/Vundle.vim
 	url = https://github.com/gmarik/Vundle.vim.git
+[submodule "get-shit-done"]
+	path = get-shit-done
+	url = https://github.com/yogsototh/get-shit-done.git
