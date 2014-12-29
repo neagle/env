@@ -24,6 +24,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'scrooloose/syntastic'
+"Plugin 'wookiehangover/jshint.vim'
 Plugin 'edsono/vim-matchit'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-surround'
