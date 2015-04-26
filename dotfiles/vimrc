@@ -38,6 +38,14 @@ Plugin 'docunext/closetag.vim'
 Plugin 'tpope/vim-fugitive'
 " Better JavaScript
 Plugin 'pangloss/vim-javascript'
+" Utils (required for SnipMate)
+Plugin 'marcweber/vim-addon-mw-utils'
+" tlib (required for SnipMate)
+Plugin 'tomtom/tlib_vim'
+" SnipMate
+Plugin 'garbas/vim-snipmate'
+" Snippets for SnipMate
+Plugin 'honza/vim-snippets'
 
 call vundle#end()
 filetype plugin indent on     " required!
@@ -272,6 +280,12 @@ inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
+" Open helpfiles in a vertical split
+augroup helpfiles
+	au!
+	au BufRead,BufEnter */doc/* wincmd L
+augroup END
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Windows, Splits, and Tabs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -363,6 +377,9 @@ nnoremap <leader>1 yypVr=
 nnoremap <leader>2 yypVr-
 
 nnoremap <leader>T "=strftime("%c")<cr>P
+
+nnoremap <leader><right> a→<esc>
+nnoremap <leader><left>  a←<esc>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins
