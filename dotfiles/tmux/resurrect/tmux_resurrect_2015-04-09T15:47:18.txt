@@ -1,0 +1,48 @@
+pane	cms	0	:node	1	:*	0	:/Users/nateeagle5/amp/cms/web	1	node	:gulp  
+pane	cms	1	:gulpfile.js	0	:-	0	:/Users/nateeagle5/amp/cms/web	1	vim	:vim config.js
+pane	cms	2	:jade	0	: 	0	:/Users/nateeagle5/amp/cms/web/js/lib	1	zsh	:
+pane	cms	3	:directive	0	: 	0	:/Users/nateeagle5/amp/cms/web/src/js/lib	1	zsh	:
+pane	cms	4	:scss	0	: 	0	:/Users/nateeagle5/amp/cms/web/src/scss/resources	1	vim	:vim resources.scss
+pane	cms	5	:Resources.php	0	: 	0	:/Users/nateeagle5/amp/cms/src/Amp/Cms/Controllers	1	vim	:vim Resources.php
+pane	cms	6	:manage.twig	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views/zones	1	vim	:vim index.twig
+pane	cms	7	:sdk-2.0.js	0	: 	0	:/Users/nateeagle5/amp/cms	1	vim	:vim js/sdk-2.0.js
+pane	cms	8	:multivariate.js	0	: 	0	:/Users/nateeagle5/amp/cms/web	1	zsh	:
+pane	gokibitz	0	:node	0	:#	0	:/Users/nateeagle5/Sites/gokibitz	0	mongod	:mongod
+pane	gokibitz	0	:node	0	:#	1	:/Users/nateeagle5/Sites/gokibitz	0	zsh	:
+pane	gokibitz	0	:node	0	:#	2	:/Users/nateeagle5/Sites/gokibitz	1	zsh	:
+pane	gokibitz	1	:controller	1	:*	0	:/Users/nateeagle5/Projects/personal/wgo.js	1	vim	:vim app.js
+pane	gokibitz	2	:jade	0	:-	0	:/Users/nateeagle5/Sites/gokibitz/server/views	1	vim	:vim upload.jade
+pane	gokibitz	3	:scss	0	: 	0	:/Users/nateeagle5/Sites/gokibitz/client/src/scss/rules/modules	1	vim	:vim rules/modules/_kifu.scss
+pane	gokibitz	4	:vim	0	: 	0	:/Users/nateeagle5/Sites/gokibitz	1	vim	:vim routes/index.js
+pane	gokibitz	5	:vim	0	: 	0	:/Users/nateeagle5/Sites/gokibitz/server/config	1	vim	:vim auth.js
+pane	gokibitz	6	:zsh	0	: 	0	:/Users/nateeagle5/Sites/gokibitz	1	vim	:vim gulp/tasks/test.js
+pane	gokibitz	7	:zsh	0	: 	0	:/Users/nateeagle5/Sites/gokibitz	1	zsh	:
+pane	relegence	0	:watch	0	:#-	0	:/Users/nateeagle5/Sites/relegence.com	1	php	:php /usr/local/bin/amp watch
+pane	relegence	0	:watch	0	:#-	1	:/Users/nateeagle5/Sites/relegence.com	0	node	:gulp  
+pane	relegence	1	:blocks	1	:*	0	:/Users/nateeagle5/Sites/relegence.com	1	zsh	:
+pane	relegence	2	:Sass	0	: 	0	:/Users/nateeagle5/Sites/relegence.com/src/scss/rules	1	vim	:vim _layout.scss
+pane	relegence	3	:vim	0	: 	0	:/Users/nateeagle5/Sites/relegence.com/src/scss/rules	1	vim	:vim _navbar.scss
+pane	relegence	4	:zsh	0	: 	0	:/Users/nateeagle5/Sites/relegence.com	1	zsh	:
+window	cms	0	1	:*	e7e5,230x49,0,0,26
+window	cms	1	0	:-	cf5f,230x49,0,0,2
+window	cms	2	0	: 	cf60,230x49,0,0,3
+window	cms	3	0	: 	cf61,230x49,0,0,4
+window	cms	4	0	: 	cf62,230x49,0,0,5
+window	cms	5	0	: 	cf63,230x49,0,0,6
+window	cms	6	0	: 	cf64,230x49,0,0,7
+window	cms	7	0	: 	cf65,230x49,0,0,8
+window	cms	8	0	: 	cf66,230x49,0,0,9
+window	gokibitz	0	0	:#	4587,230x49,0,0[230x24,0,0{115x24,0,0,10,114x24,116,0,24},230x24,0,25,11]
+window	gokibitz	1	1	:*	67e1,230x49,0,0,12
+window	gokibitz	2	0	:-	67e2,230x49,0,0,13
+window	gokibitz	3	0	: 	67e3,230x49,0,0,14
+window	gokibitz	4	0	: 	67e4,230x49,0,0,15
+window	gokibitz	5	0	: 	67e5,230x49,0,0,16
+window	gokibitz	6	0	: 	67e6,230x49,0,0,17
+window	gokibitz	7	0	: 	e824,231x49,0,0,25
+window	relegence	0	0	:#-	4861,231x49,0,0[231x24,0,0,0,231x24,0,25,19]
+window	relegence	1	1	:*	67e7,230x49,0,0,18
+window	relegence	2	0	: 	e81f,231x49,0,0,20
+window	relegence	3	0	: 	e820,231x49,0,0,21
+window	relegence	4	0	: 	e821,231x49,0,0,22
+state	cms	gokibitz

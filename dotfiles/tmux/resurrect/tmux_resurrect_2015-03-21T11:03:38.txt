@@ -1,0 +1,36 @@
+pane	0	0	:zsh	1	:*	0	:/Users/nateeagle5	1	zsh	:
+pane	cms	0	:gulp watch	0	: 	0	:/Users/nateeagle5/amp/cms/web	1	zsh	:
+pane	cms	1	:zsh	1	:*	0	:/Users/nateeagle5/amp/cms/web	1	zsh	:
+pane	cms	2	:jade	0	:-	0	:/Users/nateeagle5/amp/cms/web/src/templates	1	vim	:vim post-search.jade
+pane	cms	3	:directive	0	: 	0	:/Users/nateeagle5/amp/cms/web/src/js/angular/directives	1	vim	:vim post-search.js
+pane	cms	4	:scss	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views/zones	1	vim	:vim zones/zones.scss
+pane	cms	5	:sdk-2.0.js	0	: 	0	:/Users/nateeagle5/amp/cms	1	vim	:vim js/sdk-2.0.js
+pane	cms	6	:index.twig	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views/zones	1	vim	:vim index.twig
+pane	cms	7	:sdk-2.0.js	0	: 	0	:/Users/nateeagle5/amp/cms	1	vim	:vim js/sdk-2.0.js
+pane	cms	8	:multivariate.js	0	: 	0	:/Users/nateeagle5/amp/cms/web/src/js/content	1	vim	:vim multivariate.js
+pane	gokibitz	0	:node	0	:#	0	:/Users/nateeagle5/Sites/gokibitz	0	mongod	:mongod
+pane	gokibitz	0	:node	0	:#	1	:/Users/nateeagle5/Sites/gokibitz	1	node	:gulp  
+pane	gokibitz	1	:controller	1	:*	0	:/Users/nateeagle5/Sites/gokibitz	1	vim	:vim comment.js
+pane	gokibitz	2	:jade	0	:-	0	:/Users/nateeagle5/Sites/gokibitz/server/views/partials	1	vim	:vim kifu.jade
+pane	gokibitz	3	:scss	0	: 	0	:/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui	1	vim	:vim _comments.scss
+pane	gokibitz	4	:vim	0	:#	0	:/Users/nateeagle5/Sites/gokibitz	1	zsh	:
+pane	gokibitz	5	:vim	0	:#	0	:/Users/nateeagle5/Sites/gokibitz/server/config	1	vim	:vim auth.js
+pane	gokibitz	6	:zsh	0	: 	0	:/Users/nateeagle5/Sites/gokibitz	1	zsh	:
+window	0	0	1	:*	cfdd,231x49,0,0,0
+window	cms	0	0	: 	cf5e,230x49,0,0,1
+window	cms	1	1	:*	cf5f,230x49,0,0,2
+window	cms	2	0	:-	cf60,230x49,0,0,3
+window	cms	3	0	: 	cf61,230x49,0,0,4
+window	cms	4	0	: 	cf62,230x49,0,0,5
+window	cms	5	0	: 	cf63,230x49,0,0,6
+window	cms	6	0	: 	cf64,230x49,0,0,7
+window	cms	7	0	: 	cfe5,231x49,0,0,8
+window	cms	8	0	: 	cf66,230x49,0,0,9
+window	gokibitz	0	0	:#	e7f9,230x49,0,0[230x24,0,0,10,230x24,0,25,11]
+window	gokibitz	1	1	:*	67e1,230x49,0,0,12
+window	gokibitz	2	0	:-	67e2,230x49,0,0,13
+window	gokibitz	3	0	: 	67e3,230x49,0,0,14
+window	gokibitz	4	0	:#	67e4,230x49,0,0,15
+window	gokibitz	5	0	:#	6825,231x49,0,0,16
+window	gokibitz	6	0	: 	67e6,230x49,0,0,17
+state	cms	cms

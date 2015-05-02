@@ -1,0 +1,6 @@
+pane	0	0	:zsh	1	:*	0	:/Users/nateeagle5	1	zsh	:
+pane	1	0	:Processes	1	:*	0	:/Users/nateeagle5/Sites/gokibitz	0	mongod	:mongod
+pane	1	0	:Processes	1	:*	1	:/Users/nateeagle5/Sites/gokibitz	1	zsh	:
+window	0	0	1	:*	d39d,229x49,0,0,0
+window	1	0	1	:*	88a0,229x49,0,0[229x24,0,0,1,229x24,0,25,3]
+state	1	1

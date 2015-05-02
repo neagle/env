@@ -1,0 +1,15 @@
+pane	0	0	:zsh	1	:*	0	:/Users/nateeagle5	1	zsh	:
+pane	1	0	:gulp watch	0	:#	0	:/Users/nateeagle5/amp/cms/web	1	node	:gulp  
+pane	1	1	:vim	0	: 	0	:/Users/nateeagle5/amp/cms/web/src/js/angular/directives	1	vim	:vim post-search.js
+pane	1	2	:jade	0	:-	0	:/Users/nateeagle5/amp/cms/web/src/templates	1	vim	:vim post-search.jade
+pane	1	3	:directive	0	: 	0	:/Users/nateeagle5/amp/cms/web/src/js/angular/directives	1	vim	:vim zones.js
+pane	1	4	:scss	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views/zones	1	vim	:vim zones.scss
+pane	1	5	:index.twig	1	:*	0	:/Users/nateeagle5/amp/cms/resources/views/zones	1	vim	:vim index.twig
+window	0	0	1	:*	cf5d,230x49,0,0,0
+window	1	0	0	:#	cf5e,230x49,0,0,1
+window	1	1	0	: 	cf60,230x49,0,0,3
+window	1	2	0	:-	cf61,230x49,0,0,4
+window	1	3	0	: 	cf62,230x49,0,0,5
+window	1	4	0	: 	cf63,230x49,0,0,6
+window	1	5	1	:*	cf64,230x49,0,0,7
+state	1	

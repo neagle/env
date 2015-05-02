@@ -1,0 +1,79 @@
+pane	0	0	:zsh	1	:*	0	:/Users/nateeagle5	1	zsh	:
+pane	5	0	:zsh	0	:-	0	:/Users/nateeagle5/amp/cms/web/js/angular	1	zsh	:
+pane	5	1	:vim	1	:*	0	:/Users/nateeagle5/amp/cms/web	1	vim	:vim datetimepicker.js
+pane	cms	0	:node	0	: 	0	:/Users/nateeagle5/amp/cms/vendor/amp/core/lib/Platform/Service/Documentation	1	vim	:vim Update.php
+pane	cms	1	:gulpfile.js	0	: 	0	:/Users/nateeagle5/amp/cms/vendor/amp/core/lib/Platform/Service	1	zsh	:
+pane	cms	2	:jade	0	:#	0	:/Users/nateeagle5/amp/cms/web/js/lib	1	zsh	:
+pane	cms	3	:directive	0	: 	0	:/Users/nateeagle5/amp/cms/web/src/js/resources	1	vim	:vim index.js
+pane	cms	4	:scss	0	: 	0	:/Users/nateeagle5/amp/cms/build	1	vim	:vim _navigation.scss
+pane	cms	5	:Resources.php	0	:-	0	:/Users/nateeagle5/amp/cms/src/Amp/Cms/Controllers	1	zsh	:
+pane	cms	6	:manage.twig	1	:*	0	:/Users/nateeagle5/amp/cms/resources/views/resources	1	vim	:vim manage.twig
+pane	cms	7	:sdk-2.0.js	0	:#	0	:/data	1	zsh	:
+pane	cms	8	:error log	0	: 	0	:/Users/nateeagle5/amp/ampdev	1	ssh	:ssh vagrant@127.0.0.1 -p 2222 -o Compression=yes -o DSAAuthentication=yes -o LogLevel=FATAL -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o IdentitiesOnly=yes -i /Users/nateeagle5/amp/ampdev/.vagrant/machines/default/virtualbox/private_key
+pane	cms	9	:core	0	: 	0	:/Users/nateeagle5/amp/amp-core	1	zsh	:
+pane	cms	10	:zsh	0	: 	0	:/Users/nateeagle5/amp/amp-core/schema/mysql	1	zsh	:
+pane	cms	11	:generated code	0	: 	0	:/Users/nateeagle5/amp/cms	1	zsh	:
+pane	cms	12	:plugins.js	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views	1	vim	:vim management/plugins/edit.twig
+pane	cms	13	:manage/edit.twig	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views	1	vim	:vim contracts/manage/edit.twig
+pane	cms	14	:core - Plugins.php	0	: 	0	:/Users/nateeagle5/amp/cms/vendor/amp/core/lib/Platform/Service	1	zsh	:
+pane	cms	15	:profiles/edit.twig	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views/polls_quizzes	1	vim	:vim edit.twig
+pane	cms	16	:Profiles.php	0	: 	0	:/Users/nateeagle5/amp/cms/src/Amp/Cms/Controllers	1	vim	:vim Profiles.php
+pane	cms	17	:Controller.php	0	: 	0	:/Users/nateeagle5/amp/cms/src/Amp/Cms	1	vim	:vim Controller.php
+pane	cms	18	:navigation.twig	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views/structure	1	vim	:vim navigation.twig
+pane	gokibitz	0	:node	0	:#-	0	:/Users/nateeagle5/Sites/gokibitz	0	mongod	:mongod
+pane	gokibitz	0	:node	0	:#-	1	:/Users/nateeagle5/Sites/gokibitz	1	zsh	:
+pane	gokibitz	1	:controller	1	:*	0	:/Users/nateeagle5/Sites/gokibitz/client/src/js/directives	1	zsh	:
+pane	gokibitz	2	:jade	0	: 	0	:/Users/nateeagle5/Sites/gokibitz/server/views/partials	1	vim	:vim kifu.jade
+pane	gokibitz	3	:scss	0	: 	0	:/Users/nateeagle5/Sites/gokibitz/client/src/scss/rules/modules	1	vim	:vim _kifu.scss
+pane	gokibitz	4	:server	0	: 	0	:/Users/nateeagle5/Sites/gokibitz	1	vim	:vim kifu.js
+pane	gokibitz	5	:vim	0	: 	0	:/Users/nateeagle5/Sites/gokibitz/server/config	1	vim	:vim auth.js
+pane	gokibitz	6	:zsh	0	: 	0	:/Users/nateeagle5/Sites/gokibitz	1	zsh	:
+pane	gokibitz	7	:zsh	0	: 	0	:/Users/nateeagle5/Sites/gokibitz	1	zsh	:
+pane	relegence	0	:watch	0	:-	0	:/Users/nateeagle5/Sites/relegence.com	1	zsh	:
+pane	relegence	0	:watch	0	:-	1	:/Users/nateeagle5/Sites/relegence.com	0	zsh	:
+pane	relegence	1	:blocks	1	:*	0	:/Users/nateeagle5/Sites/relegence.com	1	zsh	:
+pane	relegence	2	:Sass	0	: 	0	:/Users/nateeagle5/Sites/relegence.com/src/scss/rules	1	vim	:vim _layout.scss
+pane	relegence	3	:vim	0	: 	0	:/Users/nateeagle5/Sites/relegence.com/src/scss/rules	1	vim	:vim _navbar.scss
+pane	relegence	4	:zsh	0	: 	0	:/Users/nateeagle5/Sites/relegence.com	1	zsh	:
+pane	wgo	0	:demo2.html	1	:*	0	:/Users/nateeagle5/Projects/personal/wgo.js	1	vim	:vim demo2.html
+pane	wgo	1	:vim	0	:-	0	:/Users/nateeagle5/Projects/personal/wgo.js/wgo	1	vim	:vim player.js
+pane	wgo	2	:zsh	0	:#	0	:/Users/nateeagle5/Projects/personal/wgo.js	1	zsh	:
+window	0	0	1	:*	cfdd,231x49,0,0,0
+window	5	0	0	:-	cfde,231x49,0,0,1
+window	5	1	1	:*	cfdf,231x49,0,0,2
+window	cms	0	0	: 	cf60,230x49,0,0,3
+window	cms	1	0	: 	cf61,230x49,0,0,4
+window	cms	2	0	:#	cfe2,231x49,0,0,5
+window	cms	3	0	: 	cfe3,231x49,0,0,6
+window	cms	4	0	: 	cf64,230x49,0,0,7
+window	cms	5	0	:-	cf65,230x49,0,0,8
+window	cms	6	1	:*	cf66,230x49,0,0,9
+window	cms	7	0	:#	681f,231x49,0,0,10
+window	cms	8	0	: 	67e0,230x49,0,0,11
+window	cms	9	0	: 	67e1,230x49,0,0,12
+window	cms	10	0	: 	6822,231x49,0,0,13
+window	cms	11	0	: 	67e3,230x49,0,0,14
+window	cms	12	0	: 	6824,231x49,0,0,15
+window	cms	13	0	: 	6825,231x49,0,0,16
+window	cms	14	0	: 	67e6,230x49,0,0,17
+window	cms	15	0	: 	69c7,228x49,0,0,18
+window	cms	16	0	: 	69c8,228x49,0,0,19
+window	cms	17	0	: 	6828,231x49,0,0,38
+window	cms	18	0	: 	67e9,230x49,0,0,39
+window	gokibitz	0	0	:#-	b04a,231x49,0,0[231x24,0,0,20,231x24,0,25,21]
+window	gokibitz	1	1	:*	e9c1,228x49,0,0,22
+window	gokibitz	2	0	: 	e822,231x49,0,0,23
+window	gokibitz	3	0	: 	e823,231x49,0,0,24
+window	gokibitz	4	0	: 	e824,231x49,0,0,25
+window	gokibitz	5	0	: 	e825,231x49,0,0,26
+window	gokibitz	6	0	: 	e826,231x49,0,0,27
+window	gokibitz	7	0	: 	e827,231x49,0,0,28
+window	relegence	0	0	:-	7053,231x49,0,0[231x24,0,0,29,231x24,0,25,30]
+window	relegence	1	1	:*	6821,231x49,0,0,31
+window	relegence	2	0	: 	6822,231x49,0,0,32
+window	relegence	3	0	: 	6823,231x49,0,0,33
+window	relegence	4	0	: 	6824,231x49,0,0,34
+window	wgo	0	1	:*	6825,231x49,0,0,35
+window	wgo	1	0	:-	6826,231x49,0,0,36
+window	wgo	2	0	:#	6827,231x49,0,0,37
+state	cms	

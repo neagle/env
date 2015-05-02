@@ -1,0 +1,32 @@
+pane	1	0	:gulp watch	0	:#	0	:/Users/nateeagle5/amp/cms/web	1	node	:gulp  
+pane	1	1	:zsh	1	:*	0	:/Users/nateeagle5/amp/cms	1	zsh	:
+pane	1	2	:jade	0	: 	0	:/Users/nateeagle5/amp/cms/web	1	vim	:vim zones-sidebar.jade
+pane	1	3	:directive	0	:-	0	:/Users/nateeagle5/amp/cms/web/src/js/angular/directives	1	vim	:vim zones-sidebar.js
+pane	1	4	:scss	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views/zones	1	vim	:vim zones.scss
+pane	1	5	:sdk-2.0.js	0	: 	0	:/Users/nateeagle5/amp/cms/js	1	vim	:vim sdk-2.0.js
+pane	1	6	:index.twig	0	: 	0	:/Users/nateeagle5/amp/cms/resources/views/zones	1	vim	:vim index.twig
+pane	1	7	:sdk-2.0.js	0	: 	0	:/Users/nateeagle5/amp/cms	1	vim	:vim js/sdk-2.0.js
+pane	1	8	:zsh	0	: 	0	:/Users/nateeagle5/amp/cms	1	zsh	:
+pane	gokibitz	0	:node	0	:#	0	:/Users/nateeagle5/Sites/gokibitz	0	zsh	:
+pane	gokibitz	0	:node	0	:#	1	:/Users/nateeagle5	1	mongod	:mongod
+pane	gokibitz	1	:controller	0	:-	0	:/Users/nateeagle5/Sites/gokibitz	1	vim	:vim comment.js
+pane	gokibitz	2	:jade	0	: 	0	:/Users/nateeagle5/Sites/gokibitz/server/views/partials	1	vim	:vim kifu.jade
+pane	gokibitz	3	:scss	1	:*	0	:/Users/nateeagle5/Sites/gokibitz/client/src/scss/lib/flat-ui	1	vim	:vim _throbber.scss
+pane	gokibitz	4	:vim	0	: 	0	:/Users/nateeagle5/Sites/gokibitz	1	vim	:vim app.js
+pane	gokibitz	5	:vim	0	: 	0	:/Users/nateeagle5/Sites/gokibitz/server/config	1	vim	:vim auth.js
+window	1	0	0	:#	cfde,231x49,0,0,1
+window	1	1	1	:*	cf60,230x49,0,0,3
+window	1	2	0	: 	cf61,230x49,0,0,4
+window	1	3	0	:-	cf62,230x49,0,0,5
+window	1	4	0	: 	cfe3,231x49,0,0,6
+window	1	5	0	: 	cf64,230x49,0,0,7
+window	1	6	0	: 	cfe5,231x49,0,0,8
+window	1	7	0	: 	cf66,230x49,0,0,9
+window	1	8	0	: 	6826,231x49,0,0,17
+window	gokibitz	0	0	:#	e7f9,230x49,0,0[230x24,0,0,10,230x24,0,25,11]
+window	gokibitz	1	0	:-	67e1,230x49,0,0,12
+window	gokibitz	2	0	: 	67e2,230x49,0,0,13
+window	gokibitz	3	1	:*	67e3,230x49,0,0,14
+window	gokibitz	4	0	: 	67e4,230x49,0,0,15
+window	gokibitz	5	0	: 	67e5,230x49,0,0,16
+state	1	
