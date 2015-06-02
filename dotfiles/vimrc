@@ -46,6 +46,8 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 " Snippets for SnipMate
 Plugin 'honza/vim-snippets'
+" Powerline
+Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()
 filetype plugin indent on     " required!
