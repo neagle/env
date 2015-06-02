@@ -29,7 +29,9 @@ Plugin 'edsono/vim-matchit'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-surround'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'evidens/vim-twig'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'godlygeek/tabular'
 " Display symbols next to lines in git projects that show changes, additions, and deletions
 Plugin 'airblade/vim-gitgutter'
 " Intelligently close HTML tags
@@ -357,7 +359,7 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 set cmdheight=2
 
 " Automatically strip trailing whitespace on file save.
-autocmd BufWritePre * :%s/\s\+$//e
+"autocmd BufWritePre * :%s/\s\+$//e
 
 " Automatically toggle paste mode
 :imap <D-V> ^O"+p
@@ -396,6 +398,7 @@ nnoremap <leader>e :Errors<cr>
 " Syntastic Settings
 let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_phpcs_conf='--standard=PSR2 --tab-width=4'
+let g:syntastic_javascript_checkers=['jshint', 'jscs']
 " https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt#L238
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['scss'] }
 
