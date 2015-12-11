@@ -48,6 +48,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 " Snippets for SnipMate
 Plugin 'honza/vim-snippets'
+Plugin 'dhruvasagar/vim-table-mode'
 
 call vundle#end()
 filetype plugin indent on     " required!
@@ -153,6 +154,10 @@ nnoremap <leader><space> :noh<cr>
 
 " Easily edit the .vimrc file
 nmap <leader>v :vsplit $MYVIMRC<CR>
+
+au WinLeave * set nocursorline nocursorcolumn
+au WinEnter * set cursorline cursorcolumn
+set cursorline cursorcolumn
 
 " Toggle the color column
 nmap <leader>tc :call ToggleColorColumn()<CR>
@@ -362,6 +367,10 @@ set cmdheight=2
 " Automatically toggle paste mode
 :imap <D-V> ^O"+p
 
+" Automatically label windows in Tmux
+" https://vi.stackexchange.com/questions/3897/how-to-label-tmux-tabs-with-the-name-of-the-file-edited-in-vim?newreg=6c6f132c9f8b4be3ad71f6012943b969
+"autocmd BufReadPost,FileReadPost,BufNewFile,BufEnter * call system("tmux rename-window 'vim | " . expand("%:t") . "'")
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Custom Filetypes
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -378,8 +387,10 @@ autocmd BufNewFile,BufRead *.zsh setlocal filetype=zsh
 nnoremap <leader>1 yypVr=
 nnoremap <leader>2 yypVr-
 
+" Add a timestamp
 nnoremap <leader>T "=strftime("%c")<cr>P
 
+" Add real arrows
 nnoremap <leader><right> a→<esc>
 nnoremap <leader><left>  a←<esc>
 
@@ -401,6 +412,9 @@ let g:syntastic_javascript_checkers=['jshint', 'jscs']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['scss'] }
 
 nnoremap <leader>n :lnext<cr>
+
+" Nerd Commenter Settings
+let g:NERDSpaceDelims='1'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Supplemental
