@@ -27,7 +27,7 @@ flvdownload() {
     rtmpdump  -r $1 -W "http://media.kelbymediagroup.com/players/player-4.6-licensed.swf" -o ~/Movies/$2
 }
 
-alias hub=git
+eval "$(hub alias -s)"
 
 # http://zshwiki.org/home/builtin/functions/zmv
 autoload -U zmv
@@ -98,7 +98,7 @@ DISABLE_AUTO_TITLE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git hub tmuxinator ssh-agent)
+plugins=(git tmuxinator ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
