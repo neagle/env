@@ -222,6 +222,7 @@ endfunction
 " Set word wrap character limit.
 " set textwidth=0
 "set textwidth=79
+autocmd FileType gitcommit setlocal tw=72
 
 " Not sure what this formatting does, but it is recommended.
 "set formatoptions=qrn1
@@ -354,6 +355,8 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 " autocmd FileType c set omnifunc=ccomplete#Complete
+"
+"
 
 " http://vim.wikia.com/wiki/Example_vimrc
 
