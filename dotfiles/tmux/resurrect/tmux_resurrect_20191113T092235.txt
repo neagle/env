@@ -1,0 +1,17 @@
+pane	Go Congress	0	:zsh	1	:*	0	:/Users/nathanaeleagle/Projects/Personal/n3	1	zsh	:
+pane	POA	0	:zsh	0	:#	0	:/Users/nathanaeleagle/Projects/Decipher/DIME/poa-service	1	zsh	:
+pane	POA	1	:zsh	0	:	0	:/Users/nathanaeleagle/Projects/Decipher/DIME/poa-ui	1	zsh	:
+pane	POA	2	:zsh	0	:-	0	:/Users/nathanaeleagle/Projects/Decipher/DIME/poa-ui	1	zsh	:
+pane	POA	3	:zsh	1	:*	0	:/Users/nathanaeleagle/Projects/Decipher/DIME/poa-service	1	zsh	:
+pane	n3	0	:zsh	0	:	0	:/Users/nathanaeleagle/Projects/Personal/n3	1	zsh	:
+pane	n3	1	:zsh	0	:-	0	:/Users/nathanaeleagle/Projects/Personal/n3	1	zsh	:
+pane	n3	2	:zsh	1	:*	0	:/Users/nathanaeleagle/Projects/Personal/env/vscode	1	zsh	:
+window	Go Congress	0	1	:*	e7d3,191x39,0,0,43
+window	POA	0	0	:#	e7d2,191x39,0,0,42
+window	POA	1	0	:	67d1,191x39,0,0,50
+window	POA	2	0	:-	e7d9,191x39,0,0,49
+window	POA	3	1	:*	67d2,191x39,0,0,51
+window	n3	0	0	:	e7d5,191x39,0,0,45
+window	n3	1	0	:-	e7d6,191x39,0,0,46
+window	n3	2	1	:*	e7d7,191x39,0,0,47
+state	POA	n3

@@ -23,11 +23,7 @@ exit() {
 alias work='get-shit-done work'
 alias play='get-shit-done play'
 
-flvdownload() {
-    rtmpdump  -r $1 -W "http://media.kelbymediagroup.com/players/player-4.6-licensed.swf" -o ~/Movies/$2
-}
-
-eval "$(hub alias -s)"
+alias git=hub
 
 # http://zshwiki.org/home/builtin/functions/zmv
 autoload -U zmv
@@ -41,38 +37,13 @@ alias get-shit-done="~/environment/get-shit-done/get-shit-done"
 alias t="~/environment/todo.txt-cli/todo.sh -d $HOME/Dropbox/todo/todo.cfg"
 alias todo="t"
 
-ls() {
-    if [[ -f ./.lsrc ]]; then
-        /bin/ls `cat .lsrc` $*
-    else
-        /bin/ls $*
-    fi
-}
-
-upload() {
-    destination=${2-nateeagle};
-    file=$1;
-    extension=${file#*.}
-
-    # Hey, we might want to send stuff somewhere else someday
-    if [[ "$destination" == "nateeagle" ]]; then
-        case "$extension" in
-        "png"|"PNG"|"jpg"|"JPG"|"gif"|"GIF")
-            echo "Uploading image to /images/posts/$file";
-            filepath="/var/www/nateeagle.com/repo/assets/images/posts/"
-            ;;
-        "sgf")
-            echo "Uploading sgf to /sgf/$file";
-            filepath="/var/www/nateeagle.com/repo/assets/sgf/"
-            ;;
-        esac
-    fi
-
-    if [ filepath ]; then
-        echo "Uploading $file to $destination."
-        scp $file nateeagle:$filepath;
-    fi
-}
+# ls() {
+    # if [[ -f ./.lsrc ]]; then
+        # /bin/ls `cat .lsrc` $*
+    # else
+        # /bin/ls $*
+    # fi
+# }
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -98,7 +69,7 @@ DISABLE_AUTO_TITLE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git tmuxinator ssh-agent)
+plugins=(git tmuxinator ssh-agent ruby)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,22 +83,16 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/bin:/bi
 # enable rbenv shims and autocompletion
 #eval "$(rbenv init -)"
 
-[ -s "/Users/nateeagle5/.scm_breeze/scm_breeze.sh" ] && source "/Users/nateeagle5/.scm_breeze/scm_breeze.sh"
-
 # http://superuser.com/questions/397362/zsh-expansion-for-a-timestamp/409429#409429
 function unix_ts { LBUFFER="${LBUFFER}$(date '+%Y%m%d%H%M%S')" }
 zle -N unix_ts
 bindkey "^t" unix_ts
 
-bindkey -s "[1" "\$e1"
-bindkey -s "[2" "\$e2"
-bindkey -s "[3" "\$e3"
-bindkey -s "[4" "\$e4"
-bindkey -s "[5" "\$e5"
-bindkey -s "[6" "\$e6"
-bindkey -s "[7" "\$e7"
-bindkey -s "[8" "\$e8"
-bindkey -s "[9" "\$e9"
-
 alias gr=$(git rev-parse --show-toplevel)
-source /Users/nateeagle5/.gulp-autocompletion-zsh/gulp-autocompletion.zsh
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+export HOMEBREW_GITHUB_API_TOKEN=ca6b578264c5730ffaa80ea878b49369d26ae5b5
+
+# Zsh custom completions
+fpath=(~/.zsh/completions $fpath) 
+autoload -U compinit && compinit

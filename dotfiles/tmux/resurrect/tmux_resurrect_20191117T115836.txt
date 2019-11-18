@@ -1,0 +1,17 @@
+pane	Go Congress	0	:zsh	1	:*	0	:/Users/nathanaeleagle/Projects/Personal/n3	1	zsh	:
+pane	POA	0	:zsh	0	:#-	0	:/Users/nathanaeleagle/Projects/Decipher/DIME/poa-ui	1	node	:node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js start
+pane	POA	1	:zsh	0	:#	0	:/Users/nathanaeleagle/Projects/Decipher/DIME/poa-service	1	docker-compose	:docker-compose up
+pane	POA	2	:zsh	1	:*	0	:/Users/nathanaeleagle/Projects/Decipher/DIME/poa-ui	1	zsh	:
+pane	POA	3	:zsh	0	:	0	:/Users/nathanaeleagle/Projects/Decipher/DIME/poa-service	1	zsh	:
+pane	n3	0	:zsh	0	:#	0	:/Users/nathanaeleagle/Projects/Personal/n3	1	zsh	:
+pane	n3	1	:zsh	0	:#-	0	:/Users/nathanaeleagle/Projects/Personal/n3	1	zsh	:
+pane	n3	2	:zsh	1	:*	0	:/Users/nathanaeleagle/Projects/Personal/env/vscode	1	zsh	:
+window	Go Congress	0	1	:*	cf3e,191x39,0,0,1
+window	POA	0	0	:#-	d07f,165x39,0,0,2
+window	POA	1	0	:#	d080,165x39,0,0,3
+window	POA	2	1	:*	d086,165x39,0,0,9
+window	POA	3	0	:	d082,165x39,0,0,5
+window	n3	0	0	:#	cf43,191x39,0,0,6
+window	n3	1	0	:#-	cf44,191x39,0,0,7
+window	n3	2	1	:*	d085,165x39,0,0,8
+state	n3	POA

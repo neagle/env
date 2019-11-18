@@ -42,6 +42,22 @@ function ohmyzsh() {
 			}
 		}
 	});
+
+	// Link the custom theme
+	var source = path.normalize(process.env.HOME + '/.oh-my-zsh/custom/themes/eagle.zsh-theme');
+	var dest = path.normalize(process.env.HOME + '/.oh-my-zsh/themes/eagle.zsh-theme');
+
+	fs.symlink(source, dest, function (error) {
+		if (!error) {
+			console.log(chalk.green('Symlinking oh-my-zsh theme'));
+		} else {
+			if (error.code === 'EEXIST') {
+				console.log(chalk.yellow('Symlink already exists at .oh-my-zsh/themes/eagle.zsh-theme'));
+			} else {
+				console.log(chalk.red('Error creating symlink', error));
+			}
+		}
+	});
 }
 
 dotfiles();
