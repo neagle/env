@@ -60,5 +60,25 @@ function ohmyzsh() {
 	});
 }
 
+function vscode() {
+	// Add custom oh-my-zsh folder
+
+	var source = path.normalize(process.env.PWD + '/vscode');
+	var dest = path.normalize(process.env.HOME + '/.vscode');
+
+	fs.symlink(source, dest, function (error) {
+		if (!error) {
+			console.log(chalk.green('Symlinking custom vscode folder'));
+		} else {
+			if (error.code === 'EEXIST') {
+				console.log(chalk.yellow('Symlink already exists at .vscode'));
+			} else {
+				console.log(chalk.red('Error creating symlink', error));
+			}
+		}
+	});
+}
+
 dotfiles();
 ohmyzsh();
+vscode()
